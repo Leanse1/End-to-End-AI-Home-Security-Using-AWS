@@ -4,8 +4,8 @@ from PIL import Image, ImageDraw
 import credentials
 
 # AWS credentials and region
-reko_access_key = 'AKIAU6GDXAQ5KBQTR64S'
-reko_secret_key = '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'
+reko_access_key = ''
+reko_secret_key = ''
 
 # Initialize AWS Rekognition client
 rekognition = boto3.client('rekognition',
