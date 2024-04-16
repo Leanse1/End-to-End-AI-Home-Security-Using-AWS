@@ -103,7 +103,7 @@ def send_sns_notification(name, date_time_str):
     # Send an SNS notification
     message = f"Unknown person detected at {date_time_str}."
     sns.publish(
-        TopicArn='arn:aws:sns:us-east-1:339712869434:stranger-detected',
+        TopicArn='',
         Message=message
     )
     print("SNS notification sent:", message)
